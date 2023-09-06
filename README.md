@@ -12,6 +12,22 @@ In addition, I made it more appealing with different bash scripts:
 
 This script streamlines the compilation process by allowing users to compile only those C files that meet their specific criteria, making it a valuable tool for developers and programmers.
 
+To execute this script, open a terminal window and navigate to the directory where the script is located. Then, type in the command:
+
+```bash
+$ ./gccfind.sh [path_to_directory] [word_to_search] [-r]
+```
+Annotation:
+
+path_to_directory: Replace this with the directory you wish to search within.
+
+word_to_search: Specify the word or pattern you want to locate.
+
+-r flag: Include this flag if you want to enable recursive searching. Leave it out if you prefer a non-recursive search.
+
+
+
+
 ## Second Script - Tennis Game
 "tennis.sh" is a script that emulates an engaging two-player board game. At the outset, each player possesses a starting score of 50 points. The game unfolds in rounds, with players making strategic choices by inputting a number between 0 and their remaining score.
 
@@ -35,10 +51,16 @@ Here's an overview of the game rules:
 
 This script offers an interactive and dynamic board game experience, where strategic decision-making and a bit of luck play pivotal roles in determining the ultimate winner.
 
-Gameplay Example:
+Game Example:
 
 ![image](https://github.com/DanSaada/My-Shell/assets/112869076/52d7b05a-5240-46a5-8640-eb6c2a11adf1)
 
+Run the script directly in a Bash shell, requiring no user input or additional arguments.
+
+```bash
+$ ./tennis.sh
+
+```
 
 ## Installing And Executing
     
@@ -58,7 +80,10 @@ $ cd My-Shell
 $ gcc -o myShell.out MyShell.c
 
 # Run the program.
- ./myShell.out
+$ ./myShell.out
+
+# Exit the program.
+$ exit
 ```
 
 ## Author
