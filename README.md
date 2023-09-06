@@ -37,62 +37,7 @@ This script offers an interactive and dynamic board game experience, where strat
 
 Gameplay Example:
 
-```bash
-
- Player 1: 50         Player 2: 50 
- --------------------------------- 
- |       |       #       |       | 
- |       |       #       |       | 
- |       |       O       |       | 
- |       |       #       |       | 
- |       |       #       |       | 
- --------------------------------- 
-PLAYER 1 PICK A NUMBER: 30
-PLAYER 2 PICK A NUMBER: 20
-
-       Player 1 played: 30
-       Player 2 played: 20
-
- Player 1: 20         Player 2: 30 
- --------------------------------- 
- |       |       #       |       | 
- |       |       #       |       | 
- |       |       #   O   |       | 
- |       |       #       |       | 
- |       |       #       |       | 
- --------------------------------- 
-PLAYER 1 PICK A NUMBER: 20
-PLAYER 2 PICK A NUMBER: 30
-
-       Player 1 played: 20
-       Player 2 played: 30
-
- Player 1: 0         Player 2: 20 
- --------------------------------- 
- |       |       #       |       | 
- |       |       #       |       | 
- |       |       #       |   O   | 
- |       |       #       |       | 
- |       |       #       |       | 
- --------------------------------- 
-PLAYER 1 PICK A NUMBER: 0
-PLAYER 2 PICK A NUMBER: 20
-
-       Player 1 played: 0
-       Player 2 played: 20
-
- Player 1: 0         Player 2: 0 
- --------------------------------- 
- |       |       #       |       | 
- |       |       #       |       | 
- |       |       #       |       | 
- |       |       #       |       | 
- |       |       #       |       | 
- --------------------------------- 
-
-Player 2 Wins!
-
-```
+![image](https://github.com/DanSaada/My-Shell/assets/112869076/52d7b05a-5240-46a5-8640-eb6c2a11adf1)
 
 
 ## Installing And Executing
